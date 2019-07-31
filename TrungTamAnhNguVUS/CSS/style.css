@@ -1,0 +1,108 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo,.slogan{
+    float: left;
+    width: 200px;
+} 
+.logo{
+    margin-right: 750px;
+}
+.clear{
+    clear: both;
+}
+.header,.menu,.wrapper{
+    /* width: 100%; */
+    margin: 10px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    margin-right: 7px;
+}
+.menu ul li a{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-decoration-line: none;
+}
+.active{
+    border-bottom: 2px solid red;
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid red;
+}
+.banner{
+    height: 380px; 
+    background-image: url('../img/slider_1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.wrapper h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ct1,.ct2,.ct3,.ct4{
+    width: 24%;
+    float: left;
+}
+.ct1,.ct2,.ct3{
+    margin-right: 1%; 
+}
+
+.line{
+    display: block;
+    margin: 10px auto 20px;
+}
+.gioiThieu p{
+    font-size: 20px;
+    text-align: center;
+}
+.chuThich,.tieuDe{
+    text-align: left;
+}
+.tieuDe{
+    font-weight: bold;
+    font-size: 15px;
+    color: red;
+    margin: 5px 0;
+}
+.chuThich{
+    font-size: 15px;
+}
+.item_left,.item_right,.top_right,.top_left,.bottom_right,.bottom_left{
+    float: left;
+    width: 49%;
+    position: relative;
+}
+.item_left,.top_left,.bottom_left{
+    margin-right: 1%;
+}
+.right_top{
+    margin-bottom: 1%;
+}
+.tinTuc img,.chuongTrinh img{
+    width: 100%;
+}
+.tinTuc img{
+    border-bottom: 2px solid red;
+  
+}
+.rec{
+    position: absolute;
+    bottom: 1%;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    text-align:left;
+    color: white;
+}
+.rec>p:first-child{
+    font-size: 18px;
+    margin: 10px;
+}
